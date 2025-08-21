@@ -522,6 +522,16 @@ section {
         gap: 40px;
     }
 
+    .about-text p:nth-child(2),
+    .about-text p:nth-child(3),
+    .about-text p:nth-child(4) {
+        display: none;
+    }
+
+    .about-text p:first-child {
+        text-align: left !important;
+    }
+
     .about-stats {
         flex-direction: row;
         justify-content: space-between;
