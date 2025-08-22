@@ -547,39 +547,27 @@ section {
     .stat {
         display: block !important;
         background: white !important;
-        padding: 1.5rem !important;
+        padding: 2rem !important;
         border-radius: 10px !important;
         box-shadow: 0 5px 15px rgba(0,0,0,0.1) !important;
         text-align: center !important;
+        min-height: 120px !important;
     }
 
-    .stat h3,
+    .stat h3 {
+        font-size: 2rem !important;
+        color: #2b77e4 !important;
+        font-weight: 700 !important;
+        margin-bottom: 0.5rem !important;
+        display: block !important;
+    }
+
     .stat p {
-        display: none !important;
-    }
-
-    .stat:nth-child(1)::after {
-        content: "50+ Years Experience";
-        font-size: 1.8rem;
-        color: #2b77e4;
-        font-weight: 700;
-        display: block;
-    }
-
-    .stat:nth-child(2)::after {
-        content: "R100bn+ Successful M&A Transactions";
-        font-size: 1.8rem;
-        color: #2b77e4;
-        font-weight: 700;
-        display: block;
-    }
-
-    .stat:nth-child(3)::after {
-        content: "R350bn+ Debt & Equity Raised";
-        font-size: 1.8rem;
-        color: #2b77e4;
-        font-weight: 700;
-        display: block;
+        color: #666 !important;
+        font-weight: 500 !important;
+        margin: 0 !important;
+        text-align: center !important;
+        display: block !important;
     }
 
 
