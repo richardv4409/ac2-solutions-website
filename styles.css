@@ -554,6 +554,10 @@ section {
         min-height: 120px !important;
     }
 
+    .stat:nth-child(1) {
+        display: none !important;
+    }
+
     .stat h3 {
         font-size: 2rem !important;
         color: #2b77e4 !important;
